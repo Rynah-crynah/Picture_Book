@@ -19,7 +19,7 @@ class CakeActivity : AppCompatActivity() {
         }
         btnPrevious2= findViewById(R.id.btnPrevious2)
         btnPrevious2.setOnClickListener {
-            var intent= Intent(this,CakeActivity::class.java)
+            var intent= Intent(this,CupcakeActivity::class.java)
             startActivity(intent)
         }
     }
